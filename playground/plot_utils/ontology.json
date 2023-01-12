@@ -1,1 +1,214 @@
-test
+{
+    "classification": {
+        "emotion": [
+            "emo",
+            "emotion",
+            "tweet_eval-emoji",
+            "tweet_eval-emotion",
+            "tweet_eval-hate",
+            "tweet_eval-irony",
+            "tweet_eval-offensive",
+            "tweet_eval-sentiment",
+            "tweet_eval-stance_abortion",
+            "tweet_eval-stance_atheism",
+            "tweet_eval-stance_climate",
+            "tweet_eval-stance_feminist",
+            "tweet_eval-stance_hillary"
+        ],
+        "fact checking": [
+            "climate_fever",
+            "health_fact",
+            "kilt_fever",
+            "liar",
+            "tab_fact"
+        ],
+        "hate speech detection": [
+            "ethos-directed_vs_generalized",
+            "ethos-disability",
+            "ethos-gender",
+            "ethos-national_origin",
+            "ethos-race",
+            "ethos-religion",
+            "ethos-sexual_orientation",
+            "financial_phrasebank",
+            "hate_speech18",
+            "hate_speech_offensive",
+            "hatexplain"
+        ],
+        "nli": [
+            "anli",
+            "glue-mnli",
+            "glue-qnli",
+            "glue-rte",
+            "glue-wnli",
+            "scitail",
+            "sick",
+            "superglue-cb",
+            "superglue-rte"
+        ],
+        "other": [
+            "ade_corpus_v2-classification",
+            "circa",
+            "discovery",
+            "glue-cola",
+            "google_wellformed_query",
+            "onestop_english",
+            "scicite",
+            "sms_spam",
+            "superglue-wic",
+            "superglue-wsc",
+            "trec",
+            "trec-finegrained",
+            "wiki_auto",
+            "wiki_qa"
+        ],
+        "paraphrase": [
+            "glue-mrpc",
+            "glue-qqp",
+            "medical_questions_pairs",
+            "paws"
+        ],
+        "sentiment analysis": [
+            "amazon_polarity",
+            "glue-sst2",
+            "imdb",
+            "poem_sentiment",
+            "rotten_tomatoes",
+            "yelp_polarity"
+        ],
+        "topic": [
+            "ag_news",
+            "dbpedia_14",
+            "yahoo_answers_topics"
+        ]
+    },
+    "conditional generation": {
+        "dialogue": [
+            "empathetic_dialogues",
+            "kilt_wow"
+        ],
+        "other": [
+            "spider",
+            "wiki_bio",
+            "wiki_split",
+            "wikisql"
+        ],
+        "summarization": [
+            "aeslc",
+            "gigaword",
+            "multi_news",
+            "reddit_tifu-title",
+            "reddit_tifu-tldr",
+            "samsum",
+            "xsum"
+        ]
+    },
+    "other": {
+        "entity linking": [
+            "kilt_ay2"
+        ],
+        "generate explanation": [
+            "cos_e"
+        ],
+        "linguistic phenomenon": [
+            "blimp-anaphor_gender_agreement",
+            "blimp-anaphor_number_agreement",
+            "blimp-determiner_noun_agreement_with_adj_irregular_1",
+            "blimp-ellipsis_n_bar_1",
+            "blimp-ellipsis_n_bar_2",
+            "blimp-existential_there_quantifiers_1",
+            "blimp-irregular_past_participle_adjectives",
+            "blimp-sentential_negation_npi_licensor_present",
+            "blimp-sentential_negation_npi_scope",
+            "blimp-wh_questions_object_gap"
+        ],
+        "n/a": [
+            "acronym_identification",
+            "art",
+            "aslg_pc12",
+            "break-QDMR",
+            "break-QDMR-high-level",
+            "common_gen",
+            "crawl_domain",
+            "crows_pairs",
+            "definite_pronoun_resolution",
+            "e2e_nlg_cleaned",
+            "limit",
+            "piqa",
+            "proto_qa",
+            "qa_srl"
+        ],
+        "regression": [
+            "app_reviews",
+            "mocha",
+            "yelp_review_full"
+        ],
+        "slot filling": [
+            "ade_corpus_v2-dosage",
+            "ade_corpus_v2-effect"
+        ]
+    },
+    "qa": {
+        "binary": [
+            "boolq",
+            "mc_taco"
+        ],
+        "closed-book qa": [
+            "freebase_qa",
+            "jeopardy",
+            "kilt_hotpotqa",
+            "kilt_nq",
+            "kilt_trex",
+            "kilt_zsre",
+            "lama-conceptnet",
+            "lama-google_re",
+            "lama-squad",
+            "lama-trex",
+            "numer_sense",
+            "search_qa",
+            "squad-no_context",
+            "web_questions"
+        ],
+        "long-form qa": [
+            "eli5-askh",
+            "eli5-asks",
+            "eli5-eli5"
+        ],
+        "machine reading comprehension": [
+            "adversarialqa",
+            "biomrc",
+            "duorc",
+            "hotpot_qa",
+            "quoref",
+            "ropes",
+            "squad-with_context",
+            "superglue-record",
+            "tweet_qa"
+        ],
+        "multiple-choice qa": [
+            "ai2_arc",
+            "aqua_rat",
+            "codah",
+            "commonsense_qa",
+            "cosmos_qa",
+            "dream",
+            "hellaswag",
+            "math_qa",
+            "openbookqa",
+            "qasc",
+            "quail",
+            "quarel",
+            "quartz-no_knowledge",
+            "quartz-with_knowledge",
+            "race-high",
+            "race-middle",
+            "sciq",
+            "social_i_qa",
+            "superglue-copa",
+            "superglue-multirc",
+            "swag",
+            "wino_grande",
+            "wiqa"
+        ]
+    }
+}
